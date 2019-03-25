@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+
+}
+
+.title{
+  background-color: #EF4135;
+  text-align: center;
+  padding: 30px  ;
+  color: white;
+  font-family: Helvetica;
+
+}
+.header {
+
+  background-color: white;
+  text-align: center;
+  padding:0px ;
+
+  color: #EF4135;
+  z-index: +1;
+  font-family: Helvetica;
+
+
+
+
+
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+.content *{
+  box-sizing: border-box;
+}
+.content{
+
+
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+
+}
+
+h1{
+  color: #EF4135;
+
+}
+
+
+.bread{
+  float: right;
+  display: block;
+  max-width: 40%;
+  height:auto;
+  position: relative;
+  margin: 20px;
+
+}
+
+ .instructions, .ingredients{
+ float: left;
+  width: 25%;
+  height: auto;
+  margin: 20px;
+  font-family: sans-serif;
+
+  padding: 20px;
+
+
+
+}
